@@ -1,7 +1,7 @@
 #!/bin/bash
 
-if [ $! -gt 100 ]
+if [ $1 -gt 100 ]
 then
-echo "That's a large number"
+    echo "That's a large number"
 fi
-echo Your number was $1
+    echo Your number was $1
